@@ -34,10 +34,14 @@ app.controller('myController', ['$scope', '$videoThumb', function ($scope, $vide
 }]);
 ```
 
-## Off course to use this factory you need to call the file or include in your gulp or grunt file
+## Off course to use this factory you need to call the file and include videoThumb module in your app file
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
 <script src="path/to/videoThumbFactory.js"></script>
 <script src="path/to/your/app.js"></script>
+```
+In your app file:
+```
+angular.module('myApp', ['videoThumb']);
 ```
 ## thats all!
