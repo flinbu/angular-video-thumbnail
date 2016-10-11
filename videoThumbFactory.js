@@ -1,4 +1,4 @@
-angular.module('videoThumbnail').factory('$videoThumb', ['$http', '$q', '$sce', function($http, $q, $sce) {
+angular.module('videoThumbn').factory('$videoThumb', ['$http', '$q', '$sce', function($http, $q, $sce) {
   return {
     getYoutube : function (url) {
       var videoId = url.split('v='),
